@@ -27,7 +27,7 @@ void printWords(std::vector<std::string> words)
 }
 int main()
 {
-	char sentence[]="12345 abcd 1A 2B hh 77 99 00 2 12345 44789 11111 22222 44444 ";
+    char sentence[]="12345 abcd 1A 2B hh 77 99 00 2 12345 44789 11111 22222 44444 66666_maaaaa";
 	printWords(split(sentence));
     return 0;
 }
